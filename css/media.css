@@ -1,0 +1,63 @@
+@media (max-width: 1200px){
+    .row form input {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 60%;
+    }
+}
+
+@media (max-width: 922px){
+    .block h2{
+        font-size: 22px;
+    }
+    .block h4{
+        font-size: 16px;
+    }
+
+    .row form{
+        justify-content: center;
+        padding-bottom: 20px;
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width: 90%;
+    }
+
+    .block .buttons button{
+        font-size: 10px;
+    }
+
+    #text, #desc{
+        width: 40%;
+    }
+}
+
+@media (max-width: 390px){
+    .buttons {
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+    .block .buttons button{
+        width: 46%;
+    }
+
+    .block .buttons button:last-child{
+        width: fit-content;
+    }
+}
